@@ -28,8 +28,8 @@ const html = `
 </html>`
 const result = add(2, 5)
 console.log("result: ", result)
-//const result2 = readHTMLFile(html)
-//console.log("result2: ", result2)
+const result2 = readHTMLFile(html)
+console.log("result2: ", result2)
 
 window.onload=function(){
     const button = document.getElementById("newWindow")
