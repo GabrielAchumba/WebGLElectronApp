@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@gabrielachumba/html_analysis": "^1.0.6"
+    "gabrielachumba_html_analysis": "1.0.8"
   },
   "devDependencies": {
     "electron": "^19.0.8"
