@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,11 @@
     "gabrielachumba_html_analysis": "1.0.10"
   },
   "devDependencies": {
-    "electron": "^19.0.8"
+    "electron": "^19.0.8",
+    "electron-builder": "^23.1.0"
+  },
+  "build": {
+    "appId": "com.gabrielachumba.app",
+    "productName": "Web GL Electorn"
   }
 }
